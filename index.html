@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>カレンダー配布</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="title">
+		<h1>カレンダー配布会議</h1>
+	</div>
+	<div id="rem">抽選人数を入力してSTARTを押してください</div>
+	<div class="slot">	
+		<div id="panel">
+			<img src="jsc.jpg">
+		</div>
+		<div id="stop" class="inactive">STOP</div>	
+		<div id="start" class="">START</div>	
+	</div>
+
+<div class="footer">
+	<form id="fm">
+        <label for="textForm">抽選人数: </label>
+        <input type="text" id="textForm">
+         
+        <button id="button">入力</button>
+    </form>
+ 	<div id="counts">
+	 	<div id="nty">
+	 		残り抽選回数 <p id="resultForm"></p>
+	 	</div>
+	    <div id="ity">
+	    	今の結果 <p id="ima"></p>	
+	    </div>
+	    <div id="idk">
+	    	今までに出たくじ<p id="deta"></p>	
+	    </div>	
+ 	</div>
+ 	<a href="" style="text-decoration: none"><font color="#fff";><div id="reset">RESET</div></font></a>
+</div>
+    
+
+
+	<script src="js/main.js"></script>
+</body>
+</html>
